@@ -75,9 +75,6 @@
 
 	$section_length = $stop_index - $start_index;
 	$main_section = replace_special(substr($html, $start_index, $section_length));
-	//$main_section = clean_irregularities($main_section); //This function is only used for the DS page.
-	
-	echo $main_section;
 
 	/*
 	* Now that we have all links
